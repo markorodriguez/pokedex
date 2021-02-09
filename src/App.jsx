@@ -58,6 +58,9 @@ function App() {
                 {data.map((el,index)=> <Card key={index} name={el.name} url={el.url}/>)}
             </div>}
             </div>
+            <div className="footer text-center">
+                <p>Made with ♥ by <a href="https://github.com/markorodriguez">Marko</a> </p>
+            </div>
             
         </div>
 
